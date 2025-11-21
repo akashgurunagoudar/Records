@@ -10,6 +10,12 @@ busnumber = sys.argv[2]
 Ppoint = sys.argv[3 ]
 dpnumber = sys.argv[4]
 
+else:
+sname="Rakesh"
+busnumber="9567"
+Ppoint=vijaypur
+dpnumber=671545355
+
 print("=== Transport Records ===")
 print(f"Student Name:{sname}")
 print(f"Bus Number:{busnumber}")
