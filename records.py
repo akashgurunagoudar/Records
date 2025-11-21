@@ -13,7 +13,7 @@ if len(sys.argv) != 5:
 else :
      sname="Rakesh"
      busnumber="9567"
-     Ppoint=vijaypur
+     Ppoint="vijaypur"
      dpnumber=671545355
 
 
