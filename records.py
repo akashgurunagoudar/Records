@@ -1,21 +1,17 @@
 import sys
-if(len(sys.argv))!=5:
-    print(Usage:python transport_records.py <"sname","bus number","Ppoint","dpnumber">):
-    sys.exit(1);
-    
-sname=float(sys.argv[1]):
-busnumber=float(sys.argv[2]):
-Ppoint=float(sys.argv[3]):
-dpnumber=float(sys.argv[4]):
 
-else:
-sname="Rakesh"
-busnumber=1033
-Ppoint="vijaypur"
-dpnumber=7353423648
+# Check if all required arguments are provided
+if len(sys.argv) != 5:
+    print("Usage: python records.py <sname> <busnumber> <Ppoint> <dpnumber>")
+    sys.exit()
 
-print("Transport Records")
-print("Student name:",sname)
-print("Bus Number:",busnumber)
-print("pickup point:",Ppoint)
-print("Driver phone number:",dpnumber)
+sname = sys.argv[1]
+busnumber = sys.argv[2]
+Ppoint = sys.argv[3 ]
+dpnumber = sys.argv[4]
+
+print("=== Transport Records ===")
+print(f"Student Name:{sname}")
+print(f"Bus Number:{busnumber}")
+print(f"Pickup Point:{Ppoint}")
+print(f"Driver Phone No:{dpnumber}")
