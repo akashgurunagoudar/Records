@@ -5,16 +5,16 @@ if len(sys.argv) != 5:
     print("Usage: python records.py <sname> <busnumber> <Ppoint> <dpnumber>")
     sys.exit()
 
-sname = sys.argv[1]
-busnumber = sys.argv[2]
-Ppoint = sys.argv[3 ]
-dpnumber = sys.argv[4]
+    sname = sys.argv[1]
+    busnumber = sys.argv[2]
+    Ppoint = sys.argv[3 ]
+    dpnumber = sys.argv[4]
 
 else :
- sname="Rakesh"
- busnumber="9567"
- Ppoint=vijaypur
- dpnumber=671545355
+     sname="Rakesh"
+     busnumber="9567"
+     Ppoint=vijaypur
+     dpnumber=671545355
 
 
 print("=== Transport Records ===")
